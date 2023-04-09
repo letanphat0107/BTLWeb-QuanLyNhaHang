@@ -1,0 +1,77 @@
+:root{
+    --primary1-color: #e1b168;
+    --primary2-color: #292e36;
+    --primary3-color: #555555;
+    --primary4-color: #343942;
+    --primary5-color: #fff8f5;
+
+    --text-color: #d7d7d7;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+
+ul{
+    padding-left: 0px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+html{
+    /* Font-size: 100%; = 16px */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Cormorant Garamond', serif;
+    box-sizing: border-box;
+}
+/* Properties */
+.mt-80{
+    margin-top: 80px;
+}
+
+.btn{
+    font-family: 'Josefin Sans', sans-serif;
+    height: 84px;
+    width: 280px;
+    text-align: center;
+    line-height: 54px;
+    font-size: 2.6rem;
+    font-weight: 550;
+}
+
+.btn-cart{
+    background-color: transparent;
+    padding: 22px;
+    margin-right: 28px;
+    border: none;
+}
+
+.btn-cart a{
+    color: white;
+    font-size: 3rem;
+}
+
+.bg-primary1{
+    background-color: var(--primary1-color);
+    color: var(--primary2-color);
+    border: none;
+}
+
+.bg-primary2{
+    background-color: var(--primary2-color);
+    color: var(--text-color);
+    border: 3px solid var(--primary1-color);
+}
+
+.bg-white{
+    background-color: white;
+    color: var(--primary2-color);
+    border: none;
+}
+/* Grid */

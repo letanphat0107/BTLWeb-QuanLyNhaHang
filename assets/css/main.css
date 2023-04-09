@@ -1,0 +1,118 @@
+#app{
+    width: 100%;
+}
+
+/* Banner */
+
+#banner{
+    width: 100%;
+    background-color: var(--primary2-color);
+    position: relative;
+    padding-top: 75px;
+}
+
+/* Header: info, mennu, welcome|title */
+
+#header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__item{
+    width: 1660px;
+}
+
+/* Header-info: btn , logo, btn*/
+
+.header-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.header-info__logo{
+    background: url(../img/Logo-19.svg) top center / cover no-repeat;
+    width: 450px;
+    height: 224px;
+    color: var(--primary1-color);
+}
+
+.line-separate{
+    border-top: 1px solid rgb(111, 109, 109);
+    width: 100vw;
+}
+
+/* Header-menu: navbar, socials */
+
+.header-menu{
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar li a{
+    color: var(--text-color);
+}
+
+.navbar__item:nth-child(1){
+    padding-left: 4px;
+}
+
+.navbar__item{
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0 38px;
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+}
+
+.socials{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.socials li a{
+    color: white;
+}
+
+.socials__item{
+    padding: 0 12px;
+    font-size: 3em;
+}
+
+.socials__item:last-child{
+    padding-right: 0px;
+}
+
+.cart-and-reservation{
+    display: flex;
+    align-items: center;
+}
+
+.header-welcome{
+    width: 100%;
+    padding: 220px 340px;
+}
+
+/* Container */
+
+#app__container{
+
+}
+
+/* Footer */
+
+#footer{
+
+}
