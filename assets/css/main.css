@@ -179,6 +179,7 @@
     margin-top: 60px;
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .about-list__item{
@@ -214,19 +215,26 @@
     font-size: 2.6rem;
     line-height: 2.6rem;
     margin-top: 14px;
+    color: var(--primary3-color);
 }
 
 .about-history{
-    width: var(--primary-width);
+    width: 100%;
     margin: 0 auto;
     display: flex;
+    justify-content: flex-start;
     margin-top: 200px;
 }
 
 .about-history__img{
-    width: 1950px;
+    display: inline-block;
+    width: 750px;
     height: 520px;
-    background: url(../img/Photo-72.jpg) top center / contain no-repeat;
+}
+
+.history__img{
+    width: 750px;
+    height: 520px;
 }
 
 .about-history__wrap{
@@ -237,7 +245,30 @@
 
 .about-history__timehook{
     display: flex;
-    
+    margin-top: 50px;
+}
+
+.timehook__from{
+    width: 400px;
+}
+
+.timehook__to{
+    width: 400px;
+    margin-left: 30px;
+}
+
+.about-signature{
+    margin-top: 40px;
+}
+
+.about-signature__name{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+
+.about-signature__img{
+    margin-top: 40px;
 }
 
 .menu{
