@@ -272,7 +272,26 @@
 }
 
 .menu{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    width: var(--primary-width);
+    margin: 0 auto;
+}
 
+.menu-offers{
+
+}
+
+.menu-wrap{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menu-offers__img{
+    background: url(../img/Photo-offers.png) top center / contain no-repeat;
 }
 
 .testimonial{
