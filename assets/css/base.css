@@ -36,6 +36,10 @@ html{
     margin-top: 80px;
 }
 
+.mt-8{
+    margin-top: 8px;
+}
+
 .fs-heading{
     font-size: 4.6rem;
     line-height: 4.6rem;
@@ -85,4 +89,32 @@ html{
     color: var(--primary1-color);
     border: 3px solid var(--primary1-color);
 }
+
+.about-description{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    margin-top: 14px;
+    color: var(--primary3-color);
+}
 /* Grid */
+
+/* Section */
+.section__heading{
+    font-size: 1.8rem;
+    font-weight: 550;
+    line-height: 1.8rem;
+    letter-spacing: 4px;
+    padding: 10px 0 6px;
+    font-family: 'Josefin Sans', sans-serif;
+    border-top: 1px solid var(--primary1-color);
+    border-bottom: 1px solid var(--primary1-color);
+    display: inline-block;
+}
+
+
+.section__title{
+    width: 100%;
+    font-size: 5rem;
+    line-height: 7rem;
+}

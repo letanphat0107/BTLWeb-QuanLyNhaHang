@@ -210,14 +210,6 @@
     font-weight: 700;
 }
 
-.about-description{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 2.6rem;
-    line-height: 2.6rem;
-    margin-top: 14px;
-    color: var(--primary3-color);
-}
-
 .about-history{
     width: 100%;
     margin: 0 auto;
@@ -246,14 +238,15 @@
 .about-history__timehook{
     display: flex;
     margin-top: 50px;
+    justify-content: space-between;
 }
 
 .timehook__from{
-    width: 400px;
+    width: 45%;
 }
 
 .timehook__to{
-    width: 400px;
+    width: 45%;
     margin-left: 30px;
 }
 
@@ -272,6 +265,13 @@
 }
 
 .menu{
+    width: 100%;
+    background-color: white;
+    color: var(--primary2-color);
+    padding: 220px 0 160px;
+}
+
+.menu-content{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -281,21 +281,84 @@
 }
 
 .menu-offers{
-
-}
-
-.menu-wrap{
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+.menu-lists{
+    width: 70%;
+    margin-top: 35px;
 }
 
 .menu-offers__img{
-    background: url(../img/Photo-offers.png) top center / contain no-repeat;
+    margin-top: 70px;
+    background: url(../img/Photo-offers.png) top left / cover no-repeat;
+    width: 100%;
+    height: 700px;
+}
+
+.btn-seeall{
+    margin-top: 60px;
+}
+
+.menu-wrap{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 170px;
+}
+
+.menu-heading{
+    width: 100%;
+    font-size: 5rem;
+    line-height: 7rem;
+}
+
+.menu-list{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.menu-item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.menu-item__img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.menu-item__info{
+    margin-left: 30px;
+    flex-grow: 1;
+}
+
+.item-info__heading{
+    font-size: 3.8rem;
+    line-height: 3.8rem;
+}
+
+.menu-item__price{
+    padding-top: 40px;
+    font-size: 3.6rem;
+    line-height: 3.6rem;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .testimonial{
-
+    width: 100%;
+    background-color: var(--primary4-color);
+    padding: 100px 0 200px 100px;
+    color: white;
 }
 
 .image{
