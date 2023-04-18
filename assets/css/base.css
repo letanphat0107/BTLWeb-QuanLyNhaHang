@@ -6,7 +6,7 @@
     --primary5-color: #fff8f5;
 
     --text-color: #d7d7d7;
-    --primary-width: 1660px;
+    --primary-width: 1103px;
 }
 
 *{
@@ -52,42 +52,45 @@ html{
 
 .btn{
     font-family: 'Josefin Sans', sans-serif;
-    height: 84px;
-    width: 280px;
+    height: 53px;
+    width: 185px;
     text-align: center;
-    line-height: 54px;
-    font-size: 2.6rem;
-    font-weight: 550;
+    line-height: 53px;
+    font-size: 1.8rem;
+    font-weight: 400;
 }
 
 .btn-cart{
     background-color: transparent;
-    padding: 22px;
-    margin-right: 28px;
+    padding: 16px;
     border: none;
+    position: absolute;
+    left: -70px;
 }
 
 .btn-cart a{
     color: white;
-    font-size: 3rem;
+    font-size: 2.2rem;
 }
 
 .bg-primary1{
     background-color: var(--primary1-color);
     color: var(--primary2-color);
     border: none;
+    font-weight: 550;
 }
 
 .bg-primary2{
     background-color: var(--primary2-color);
     color: var(--text-color);
-    border: 3px solid var(--primary1-color);
+    border: 2px solid var(--primary1-color);
+    font-size: 1.6rem;
 }
 
 .bg-white{
     background-color: white;
     color: var(--primary1-color);
-    border: 3px solid var(--primary1-color);
+    border: 2px solid var(--primary1-color);
 }
 
 .about-description{

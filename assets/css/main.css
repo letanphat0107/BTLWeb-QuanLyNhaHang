@@ -8,7 +8,7 @@
     width: 100%;
     background-color: var(--primary2-color);
     position: relative;
-    padding-top: 75px;
+    padding-top: 50px;
 }
 
 /* Header: info, mennu, welcome|title */
@@ -27,16 +27,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
     width: var(--primary-width);
 }
 
 .header-info__logo{
     background: url(../img/Logo-19.svg) top center / cover no-repeat;
-    width: 450px;
-    height: 224px;
+    width: 304px;
+    height: 150px;
     color: var(--primary1-color);
-    margin-right: -106px;
+}
+
+.cart-and-reservation{
+    position: relative;
 }
 
 .line-separate{
@@ -47,7 +50,7 @@
 /* Header-menu: navbar, socials */
 
 .header-menu{
-    height: 96px;
+    height: 65px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -70,9 +73,9 @@
 
 .navbar__item{
     font-family: 'Josefin Sans', sans-serif;
-    padding: 0 38px;
-    font-size: 2.4rem;
-    line-height: 2.4rem;
+    padding: 0 24px;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
 }
 
 .socials{
@@ -86,63 +89,58 @@
 }
 
 .socials__item{
-    padding: 0 12px;
-    font-size: 3em;
+    padding: 0 8px;
+    font-size: 1.8em;
 }
 
 .socials__item:last-child{
     padding-right: 0px;
 }
 
-.cart-and-reservation{
-    display: flex;
-    align-items: center;
-}
-
 /* Header - welcome */
 
 .header-welcome{
     width: 100%;
-    padding: 240px 340px;
+    padding: 155px 215px;
     position: relative;
 }
 
 .header-welcome__title{
     display: inline-block;
-    font-size: 12rem;
-    line-height: 9rem;
+    font-size: 7.6rem;
+    line-height: 6.2rem;
     width: 600px;
     color: white;
 }
 
 .header-welcome__subtitle{
-    padding: 40px 0 50px;
-    font-size: 2.4rem;
-    line-height: 2.9rem;
-    width: 800px;
+    padding: 30px 0 36px;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    width: 550px;
     color: var(--text-color);
     font-family: 'Josefin Sans', sans-serif;
 }
 
 .header-welcome__icon{
-    height: 440px;
-    width: 440px;
+    height: 300px;
+    width: 300px;
     position: absolute;
-    top: 28px;
+    top: 20px;
     right: 70px;
     background: url(../img/Pattern-1.svg) center / contain no-repeat;
 }
 
 .header-welcome__showview{
-    height: 852px;
-    width: 790px;
+    height: 570px;
+    width: 526px;
     position: absolute;
-    top: 40px;
-    right: 250px;
+    top: 22px;
+    right: 200px;
     background-color: white;
-    border-top: 40px solid var(--primary4-color);
-    border-left: 40px solid var(--primary4-color);
-    border-right: 40px solid var(--primary4-color);
+    border-top: 24px solid var(--primary4-color);
+    border-left: 24px solid var(--primary4-color);
+    border-right: 24px solid var(--primary4-color);
     border-top-right-radius: 400px;
     border-top-left-radius: 400px;
 }
@@ -151,9 +149,9 @@
     background: url(../img/Photo-73.jpg) top center / cover no-repeat;
     position: absolute;
     top: 0px;
-    right: 0px;
-    width: 711px;
-    height: 890px;
+    right: -1px;
+    width: 480px;
+    height: 590px;
     border-top-right-radius: inherit;
     border-top-left-radius: inherit;
 }
