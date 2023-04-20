@@ -36,8 +36,16 @@ html{
     margin-top: 80px;
 }
 
+.mt-6{
+    margin-top: 6px !important;
+}
+
 .mt-8{
     margin-top: 8px;
+}
+
+.color-white{
+    color: white !important;
 }
 
 .fs-heading{
@@ -95,6 +103,28 @@ html{
     border: 2px solid var(--primary1-color);
 }
 
+/* Grid */
+
+/* Section */
+.section__heading{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+    letter-spacing: 4px;
+    padding: 6px 0 4px;
+    font-family: 'Josefin Sans', sans-serif;
+    border-top: 1px solid var(--primary1-color);
+    border-bottom: 1px solid var(--primary1-color);
+    display: inline-block;
+}
+
+.section__title{
+    width: 100%;
+    font-size: 3.2rem;
+    line-height: 4.4rem;
+    font-weight: 600;
+}
+
 .about-heading{
     font-size: 2.6rem;
     line-height: 2.6rem;
@@ -107,25 +137,4 @@ html{
     line-height: 1.8rem;
     margin-top: 12px;
     color: var(--primary3-color);
-}
-/* Grid */
-
-/* Section */
-.section__heading{
-    font-size: 1.8rem;
-    font-weight: 550;
-    line-height: 1.8rem;
-    letter-spacing: 4px;
-    padding: 10px 0 6px;
-    font-family: 'Josefin Sans', sans-serif;
-    border-top: 1px solid var(--primary1-color);
-    border-bottom: 1px solid var(--primary1-color);
-    display: inline-block;
-}
-
-
-.section__title{
-    width: 100%;
-    font-size: 5rem;
-    line-height: 7rem;
 }
