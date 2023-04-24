@@ -2,8 +2,10 @@
     --primary1-color: #e1b168;
     --primary2-color: #292e36;
     --primary3-color: #555555;
-    --primary4-color: #343942;
+    --primary4-color: #343942 ;
     --primary5-color: #fff8f5;
+    --navigation-color: #7f8286 ;
+    --navigation-active-color: #d9d9d9;
 
     --text-color: #d7d7d7;
     --primary-width: 1103px;
@@ -48,11 +50,13 @@ html{
     color: white !important;
 }
 
+/* font size */
 .fs-heading{
     font-size: 3.2rem;
     line-height: 2.8rem;
 }
 
+/* font family */
 .ff-2{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
@@ -103,6 +107,10 @@ html{
     border: 2px solid var(--primary1-color);
 }
 
+.line-separate{
+    border-top: 1px solid rgb(111, 109, 109);
+    width: 100%;
+}
 /* Grid */
 
 /* Section */
@@ -137,4 +145,53 @@ html{
     line-height: 1.8rem;
     margin-top: 12px;
     color: var(--primary3-color);
+}
+
+/* Person */
+.person{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 16px;
+}
+
+.person__img{
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+}
+
+.person-info{
+    flex-grow: 1;
+    padding: 22px 22px;
+}
+
+.person-info__name{
+    font-size: 2.4rem;
+    line-height: 3.8rem;
+}
+.person-info__city{
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color: var(--primary1-color);
+}
+
+.person__comment{
+    margin-top: 20px;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 200;
+    line-height: 3rem;
+}
+
+.person-quotation::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: url(../img/“-1.svg) center / 12px no-repeat;
+    background-color: var(--primary1-color);
+    border: 2px solid black;
 }
