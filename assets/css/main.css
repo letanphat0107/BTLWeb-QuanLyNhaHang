@@ -402,7 +402,63 @@
 }
 
 .offer{
+    background-color: white;
+    padding: 158px 0 68px;
+}
 
+.offer-content{
+    width: var(--primary-width);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.offer-content .about-description{
+    max-width: 550px;
+}
+
+.offer-baner{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer-baner__item{
+    text-align: left;
+    width: 49%;
+    height: 326px;
+    padding: 42px 35px;
+}
+
+.offer-info__price{
+    width: 105px;
+    height: 105px;
+    background: url(../img/Group\ 46.svg) top center/ contain no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transform: rotate(-25deg);
+    font-size: 5rem;
+    line-height: 5rem;
+    font-weight: 600;
+    color: white;
+}
+
+.txt-only{
+    text-align: center;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+
+.offer-baner__item .about-description{
+    max-width: 210px;
 }
 
 .relatedoffer{

@@ -114,6 +114,7 @@ html{
 /* Grid */
 
 /* Section */
+/* div */
 .section__heading{
     font-size: 1.2rem;
     font-weight: 500;
@@ -125,20 +126,20 @@ html{
     border-bottom: 1px solid var(--primary1-color);
     display: inline-block;
 }
-
+/* h2 */
 .section__title{
     width: 100%;
     font-size: 3.2rem;
     line-height: 4.4rem;
     font-weight: 600;
 }
-
 .about-heading{
     font-size: 2.6rem;
     line-height: 2.6rem;
     font-weight: 700;
 }
 
+/* p */
 .about-description{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.6rem;
