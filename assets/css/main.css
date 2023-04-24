@@ -396,7 +396,9 @@
 }
 
 .image{
-
+    width: 100%;
+    height: 486px;
+    background: url(../img/bongden.png) top center / contain no-repeat;
 }
 
 .offer{
