@@ -338,7 +338,6 @@
 }
 
 .menu-item__price{
-    padding-top: 30px;
     font-size: 2.4rem;
     line-height: 2.4rem;
     font-family: 'Josefin Sans', sans-serif;
@@ -402,6 +401,7 @@
 }
 
 .offer{
+    width: 100%;
     background-color: white;
     padding: 158px 0 68px;
 }
@@ -462,7 +462,43 @@
 }
 
 .relatedoffer{
+    width: 100%;
+    background-color: white;
+    padding-bottom: 136px;
+}
 
+.relatedoffer-content{
+    width: var(--primary-width);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.relatedoffer-content .about-description{
+    max-width: 550px;
+}
+
+.relatedoffer-list{
+    margin-top: 56px;
+    flex-wrap: nowrap;
+    padding-bottom: 25px;
+}
+
+.relatedoffer-list__item{
+    width: 256px;
+}
+
+.relatedoffer-list__item img{
+    width: 256px;
+    height: 248px;
+}
+
+.relatedoffer-list__item .about-description{
+    width: 215px;
+    text-align: left;
 }
 
 .services{

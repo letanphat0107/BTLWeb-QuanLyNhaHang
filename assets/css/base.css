@@ -46,6 +46,14 @@ html{
     margin-top: 8px;
 }
 
+.pdtop-30{
+    padding-top: 30px;
+}
+
+.pdtopbot-8{
+    padding: 8px 0;
+}
+
 .color-white{
     color: white !important;
 }
@@ -110,6 +118,13 @@ html{
 .line-separate{
     border-top: 1px solid rgb(111, 109, 109);
     width: 100%;
+}
+
+.space-between{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 /* Grid */
 
