@@ -32,6 +32,7 @@ html{
     line-height: 1.6rem;
     font-family: 'Cormorant Garamond', serif;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 /* Properties */
 .mt-80{
