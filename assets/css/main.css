@@ -284,10 +284,6 @@
     height: 440px;
 }
 
-.btn-seeall{
-    margin-top: 44px;
-}
-
 .menu-lists{
     width: 70%;
     margin-top: 25px;
@@ -403,7 +399,6 @@
 .offer{
     width: 100%;
     background-color: white;
-    padding: 158px 0 68px;
 }
 
 .offer-content{
@@ -556,7 +551,50 @@
 }
 
 .blog{
+    width: 100%;
+    background-color: white;
+}
 
+.blog-content{
+    width: var(--primary-width);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.blog-content .about-description{
+    max-width: 550px;
+}
+
+.blog-list{
+    margin-top: 50px;
+    padding-bottom: 80px;
+}
+
+.blog-list__item{
+    width: 48%;
+    height: 564px;
+    border: 1px solid var(--primary2-color);
+}
+
+.blog-list__item img{
+    width: 100%;
+    height: 315px;
+    position: relative;
+}
+
+.blog-info{
+    width: 100%;
+    padding: 34px 60px 34px 30px;
+    text-align: left;
+}
+
+.blog-info__heading{
+    font-size: 2.8rem;
+    line-height: 3.8rem;
 }
 
 .reservation{

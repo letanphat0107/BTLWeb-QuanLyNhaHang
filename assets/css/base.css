@@ -83,6 +83,10 @@ html{
     font-weight: 400;
 }
 
+.btn-seeall{
+    margin-top: 44px;
+}
+
 .btn-cart{
     background-color: transparent;
     padding: 16px;
@@ -127,9 +131,19 @@ html{
     justify-content: space-between;
     align-items: center;
 }
+
+.flex-start{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
 /* Grid */
 
 /* Section */
+.section{
+    padding: 158px 0 68px;
+}
 /* div */
 .section__heading{
     font-size: 1.2rem;
