@@ -9,6 +9,7 @@
 
     --text-color: #d7d7d7;
     --primary-width: 1103px;
+    --modal-width:848px;
 }
 
 *{
@@ -118,6 +119,11 @@ html{
     background-color: white;
     color: var(--primary1-color);
     border: 2px solid var(--primary1-color);
+}
+
+.bg-white2{
+    background-color: white;
+    color: var(--primary2-color);
 }
 
 .line-separate{

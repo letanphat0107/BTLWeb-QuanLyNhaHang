@@ -598,7 +598,50 @@
 }
 
 .reservation{
+    width: 100%;
+    padding: 158px 0 164px;
+    background: url(../img/csx1678294662.jpg) top center / cover no-repeat;
+    opacity: 1;
+}
 
+.reservation-content{
+    width: var(--modal-width);
+    margin: 0 auto;
+    padding: 120px 126px;
+    background-color: #2a3038f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;
+}
+
+.reservation-form{
+    width: 100%;
+    margin-top: 22px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 28px;
+}
+
+.reservation-form input{
+    height: 56px;
+    background-color: transparent;
+    border: 1px solid rgb(176, 168, 168);
+    font-family: 'Josefin Sans', sans-serif;
+    flex-grow: 1;
+}
+
+.reservation-form input::placeholder{
+    padding: 14px 18px;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.reservation-form div{
+    gap: 24px;
 }
 
 /* Footer */
