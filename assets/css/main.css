@@ -578,12 +578,28 @@
     width: 48%;
     height: 564px;
     border: 1px solid var(--primary2-color);
+    position: relative;
 }
 
-.blog-list__item img{
+.blog-info__img{
     width: 100%;
     height: 315px;
-    position: relative;
+}
+
+.viewmore{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 315px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(53, 51, 51, 0.444);
+}
+
+.blog-list__item:hover .viewmore{
+    display: flex !important;
 }
 
 .blog-info{
@@ -642,10 +658,4 @@
 
 .reservation-form div{
     gap: 24px;
-}
-
-/* Footer */
-
-#footer{
-
 }
