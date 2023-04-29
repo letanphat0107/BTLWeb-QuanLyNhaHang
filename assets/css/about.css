@@ -1,0 +1,38 @@
+.about{
+    width: 100%;
+    background-color: white;
+    padding: 160px 0 244px;
+}
+
+.about-content{
+    width: var(--primary-width);
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.content{
+    flex-grow: 1;
+    padding-top: 98px;
+    padding-right: 180px;
+}
+
+.about-content .img{
+    min-width: 445px;
+    height: 512px;
+    border-top-right-radius: 185px;
+    background: url(../img/Photo-53.jpg) top center / cover no-repeat;
+    position: relative;
+    z-index: 2;
+}
+
+.about-icon{
+    width: 220px;
+    height: 220px;
+    background: url(../img/Pattern.svg) top center / contain no-repeat;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    right: -90px;
+    z-index: 1;
+}
