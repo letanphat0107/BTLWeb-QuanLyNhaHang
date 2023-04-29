@@ -36,3 +36,62 @@
     right: -90px;
     z-index: 1;
 }
+
+.counts{
+    width: 100%;
+    padding: 64px 0 48px;
+    background: url(../img/Photo-52.jpg) top center / cover no-repeat;
+}
+
+.count-content{
+    width: var(--primary-width);
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.count-item{
+    flex-grow: 1;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.count-item + .count-item{
+    border-left: 1px solid #807c7c;
+}
+
+.count__img{
+    width: 60px;
+    height: 75px;
+}
+
+.count__name{
+    margin-top: 8px;
+    font-size: 2.6rem;
+    line-height: 2.6rem;
+}
+
+.count__des{
+    margin-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    max-width: 240px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 2.2rem;
+    color: var(--primary5-color);
+}
+
+.count__seemore{
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    color: var(--primary1-color);
+}
