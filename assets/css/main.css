@@ -147,19 +147,6 @@
 
 /* Testtimonial */
 
-.testimonial{
-    width: 100%;
-    background-color: var(--primary2-color);
-    padding: 100px 0 140px;
-    color: white;
-    position: relative;
-}
-
-.testimonial-content{
-    width: var(--primary-width);
-    margin: 0 auto;
-}
-
 .testimonial-list{
     margin-top: 36px;
     width: 100%;
