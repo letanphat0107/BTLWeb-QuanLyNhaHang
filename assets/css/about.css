@@ -186,3 +186,60 @@
 .person-quotation::before{
     left: calc(50% - 50px);
 }
+
+.galary{
+    padding: 160px 0;
+    background-color: white;
+}
+
+.galary-content{
+    width: var(--primary-width);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.galary-show{
+    margin-top: 40px;
+    height: 500px;
+    display: flex;
+    gap: 15px;
+}
+
+.galary-list{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.galary-list1{
+    width: 227px;
+}
+
+.galary-list2{
+    width: 626px;
+}
+
+.galary-item{
+    width: 100%;
+}
+
+.galary-item50{
+    height: 240px;
+}
+
+.galary-item100{
+    height: 100%;
+}
+
+.galary-item60{
+    height: 276px;
+}
+
+.galary-item40{
+    height: 210px;
+}
