@@ -633,6 +633,7 @@ html{
     line-height: 50px;
     font-size: 2rem;
     color: white;
+    text-decoration: underline;
 }
 
 .footer__logo{
