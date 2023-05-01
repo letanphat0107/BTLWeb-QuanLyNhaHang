@@ -1,0 +1,36 @@
+.menu{
+    padding-bottom: 160px;
+}
+
+.menu-offers{
+    width: 443px;
+    height: 571px;
+}
+
+.menu-offers__img{
+    background: url(../img/Image-9.jpg) top center / cover no-repeat;
+    margin-top: 0px;
+    width: 443px;
+    height: 100%;
+}
+
+.menu-lists{
+    margin-top: 0px;
+    flex-grow: 1;
+}
+
+.menu-wrap{
+    padding-left: 40px;
+}
+
+.menu-list{
+    margin-top: 30px;
+}
+
+.menu-item{
+    margin-bottom: 40px;
+}
+
+.btn-seeall{
+    margin-top: 14px;
+}
